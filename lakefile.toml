@@ -1,0 +1,14 @@
+name = "amicable"
+version = "0.1.0"
+defaultTargets = ["Amicable"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.15.0"
+
+[[lean_lib]]
+name = "AmicableLib"
+
+[[lean_lib]]
+name = "Amicable"
